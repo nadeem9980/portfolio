@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadeem - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Nadeem hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nadeem hanrick">Muhammad Nadeem</h1>
+
+          <h1 class="title">Python Developer</h1>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mud.nadeem333@gmail.com" class="contact-link">mud.nadeem333@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+923026769980</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">September 01, 1995</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>DHA Phase 1 sector F Islamabad</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/muhammad-nadeem-/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/923026769980" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/nadeem833" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.fiverr.com/nadeem980" class="social-link" target="_blank" rel="noopener">
+              <img src="./assets/images/fiverr-icon.svg" alt="Fiverr" style="width:24px; height:24px;">
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Python Developer with a strong background in Backend Development, Artificial Intelligence, and Web
+            Scraping.
+            I specialize in designing efficient, scalable systems and working with both SQL and NoSQL databases to
+            handle diverse data challenges.
+          </p>
+
+          <p>
+            My focus is on creating reliable and high-performance backend solutions that seamlessly integrate with your
+            applications.
+            Whether it's automating data pipelines, building intelligent AI-powered features, or scraping and organizing
+            web data,
+            I ensure each project is optimized for both stability and growth. I take pride in transforming ideas into
+            well-structured, production-ready systems.
+          </p>
+        </section>
+
+
+
+        <!--
+          - service
+        -->
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/python.png" alt="Python Development Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Development</h4>
+                <p class="service-item-text">
+                  Developing high-quality applications using Python frameworks like Django, Flask, and FastAPI — from
+                  rapid prototypes to full-scale production systems.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/machine-learning.png" alt="AI Solutions Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Solutions</h4>
+                <p class="service-item-text">
+                  Developing intelligent AI-driven features and data models to automate tasks, enhance analytics, and
+                  improve user experience.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/online-shopping.png" alt="Web Scraping Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Scraping</h4>
+                <p class="service-item-text">
+                  Extracting valuable data from websites with robust, reliable, and ethical scraping solutions tailored
+                  to your business needs.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/data-analysis.png" alt="Database Design Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Design</h4>
+                <p class="service-item-text">
+                  Designing and optimizing both SQL and NoSQL databases to ensure data integrity, performance, and
+                  scalability.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/devops.png" alt="DevOps Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps & CI/CD</h4>
+                <p class="service-item-text">
+                  Implementing modern DevOps practices including Docker, and CI/CD pipelines for seamless, automated
+                  deployments and scalable infrastructure.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/data-mining.png" alt="Data Engineering Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering & Analytics</h4>
+                <p class="service-item-text">
+                  Building efficient data pipelines for ETL processes and performing in-depth data analysis to turn raw
+                  data into actionable insights.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - testimonials
+        -->
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <!-- Iplex Testimonial -->
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="2024-09-10">
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/image.png" alt="Iplex logo" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Iplex</h4>
+                <span class="testimonials-client-country white-text">US, United States</span>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nadeem supported us in developing robust backend solutions using Python and Django.
+                    His clear code and scalable architecture helped streamline our processes and launch new features
+                    quickly.
+                    Great experience working with him!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- Devgate Testimonial -->
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="2024-02-05">
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Screenshot_1.png" alt="Devgate logo" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Devgate</h4>
+                <span class="testimonials-client-country white-text">PK, Pakistan</span>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nadeem joined our team as a Python developer for backend projects.
+                    His work on APIs and database design using Django and FastAPI was both efficient and reliable.
+                    A true asset to any development team!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- Paradoxpolitics Testimonial -->
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="2024-09-20">
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Paradoxpolitics" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Paradoxpolitics</h4>
+                <span class="testimonials-client-country white-text">US, United States</span>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I'd love to get Nadeem on my team. It will be good for both of us.
+                    He's a highly reliable developer and I look forward to more collaborations.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- User30697861 Testimonial -->
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="2024-08-01">
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="User30697861" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Benjamin Donaldson</h4>
+                <span class="testimonials-client-country white-text">GB, United Kingdom</span>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Exceptional expertise in Django and React full-stack development.
+                    Delivered outstanding results promptly and with great attention to detail.
+                    I highly recommend Nadeem!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- Sarah Lotte Testimonial -->
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="2024-07-15">
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Sarah Lotte" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sarah Lotte</h4>
+                <span class="testimonials-client-country white-text">PR, Puerto Rico</span>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Very knowledgeable seller. I recommend him for everyone who needs his services.
+                    Always delivering quality work with great professionalism.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- Yaldayalda Testimonial -->
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="2024-06-22">
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Yaldayalda" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Yaldayalda</h4>
+                <span class="testimonials-client-country white-text">AU, Australia</span>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Had the best experience with Nadeem, who whipped up a fantastic Python script for automating data
+                    collection.
+                    The project was delivered in an easy-to-use file, and the sales service was top-notch.
+                    10/10 would engage him again.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <!-- Testimonials Modal -->
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+              <div data-modal-text>
+                <p>
+                  Nadeem was hired to create a corporate identity. We were very pleased with the work done.
+                  She has a lot of experience and is very concerned about the needs of client.
+                </p>
+              </div>
+            </div>
+
+          </section>
+        </div>
+
+
+
+
+
+        <!--
+          - clients
+        -->
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- Experience Section -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python Developer — Mobify</h4>
+              <span>09/2024 — Present</span>
+              <p class="timeline-text">
+                Worked as a full-stack engineer using Django, React, and RESTful APIs. Helped launch features,
+                implemented security improvements, and handled backend logic and frontend integration.
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python Developer — Iplex</h4>
+              <span>01/2024 — 09/2024</span>
+              <p class="timeline-text">
+                Developed robust Python-based solutions for business automation, collaborated in deploying
+                microservices architectures, and improved code quality and deployment pipelines.
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python Developer — Devgate</h4>
+              <span>10/2021 — 01/2024</span>
+              <p class="timeline-text">
+                Contributed to scalable backend services using Django and FastAPI, designed and maintained APIs,
+                and improved system performance through efficient database modeling and optimization.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Education Section -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">MS Computer Science</h4>
+              <span>2019 — 2021</span>
+              <p class="timeline-text">
+                Master's degree with a focus on advanced algorithms, artificial intelligence, and scalable
+                cloud systems.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BS Information Technology</h4>
+              <span>2013 — 2017</span>
+              <p class="timeline-text">
+                Completed Bachelor's degree specializing in software development, database systems,
+                and web technologies.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <div class="skills-container">
+
+            <div class="skill-item">
+              <img src="./assets/images/python.png" alt="Python" class="skill-icon">
+              <span>Python</span>
+            </div>
+
+            <div class="skill-item">
+              <img src="./assets/images/django-icon-svgrepo-com.svg" alt="Django" class="skill-icon">
+              <span>Django</span>
+            </div>
+
+            <div class="skill-item">
+              <img src="./assets/images/fastapi.svg" alt="FastAPI" class="skill-icon">
+              <span>FastAPI</span>
+            </div>
+
+            <div class="skill-item">
+              <img src="./assets/images/postgresql-logo-svgrepo-com.svg" alt="PostgreSQL" class="skill-icon">
+              <span>PostgreSQL</span>
+            </div>
+
+            <div class="skill-item">
+              <img src="./assets/images/docker-svgrepo-com.svg" alt="Docker" class="skill-icon">
+              <span>Docker</span>
+            </div>
+
+            <div class="skill-item">
+              <img src="./assets/images/icons8-git.svg" alt="Git" class="skill-icon">
+              <span>Git</span>
+            </div>
+
+            <div class="skill-item">
+              <img src="./assets/images/linux-svgrepo-com.svg" alt="Linux" class="skill-icon">
+              <span>Linux</span>
+            </div>
+            <div class="skill-item">
+              <img src="./assets/images/rest-api-blue-logo-22099.svg" alt="Apis" class="skill-icon">
+              <span>Rest Apis</span>
+            </div>
+            <div class="skill-item">
+              <img src="./assets/images/icons8-javascript.svg" alt="Javascript" class="skill-icon">
+              <span>Javascript</span>
+            </div>
+            <div class="skill-item">
+              <img src="./assets/images/MongoDB.png" alt="Mongos" class="skill-icon">
+              <span>MongoDB</span>
+            </div>
+
+          </div>
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+            <li class="filter-item"><button data-filter-btn>Applications</button></li>
+            <li class="filter-item"><button data-filter-btn>Data & AI</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Web Development</button></li>
+              <li class="select-item"><button data-select-item>Applications</button></li>
+              <li class="select-item"><button data-select-item>Data & AI</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="https://polaris.mobify.games/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/polaris-1.png" alt="Polaris Dashboard" loading="lazy">
+                </figure>
+                <h3 class="project-title">Polaris Dashboard</h3>
+                <p class="project-category">Django, PostgreSQL, BigQuery</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="https://career.mobify.games/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/career-1.png" alt="Career Portal" loading="lazy">
+                </figure>
+                <h3 class="project-title">Career Portal</h3>
+                <p class="project-category">Django, PostgreSQL</p>
+              </a>
+            </li>
+
+
+
+            <li class="project-item active" data-filter-item data-category="Applications">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/tmg.png" alt="The Modern Groom" loading="lazy">
+                </figure>
+                <h3 class="project-title">TheModernGroom</h3>
+                <p class="project-category">Flask, PostgreSQL, OpenAPI</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="https://daftarpro.com/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/dp.png" alt="DaftarPro" loading="lazy">
+                </figure>
+                <h3 class="project-title">DaftarPro</h3>
+                <p class="project-category">Flask, MongoDB</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="https://www.pencil.pk/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/pn.png" alt="Pencil News" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pencil News</h3>
+                <p class="project-category">BeautifulSoup, MongoDB, AWS EC2</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/medical-store.png" alt="Medical Store Website" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pharmacy Store</h3>
+                <p class="project-category">Django, SQL, HTML, CSS</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/link2va.png" alt="Link2VA" loading="lazy">
+                </figure>
+                <h3 class="project-title">Link2VA</h3>
+                <p class="project-category">Next.js, Flask</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="https://mobify.tech/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/mobify.png" alt="mobify-dashboard" loading="lazy">
+                </figure>
+                <h3 class="project-title">Mobify Dashboard</h3>
+                <p class="project-category">django, Postgres</p>
+              </a>
+
+
+
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="https://shipntrack.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/shipnTrack.png" alt="ShipNTrack" loading="lazy">
+                </figure>
+                <h3 class="project-title">ShipNTrack</h3>
+                <p class="project-category">Flask, MySQL, SQLAlchemy</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Data & AI">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/sarcasam.webp" alt="Sarcasm and Abuse Detection" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sarcasm and Abuse Detection</h3>
+                <p class="project-category">NLP, BERT, Word Embedding</p>
+              </a>
+            </li>
+
+            </li>
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="https://dbit.live/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/dbit.jpg" alt="DBIT Coin" loading="lazy">
+                </figure>
+                <h3 class="project-title">DBIT Coin</h3>
+                <p class="project-category">Django, MySQL</p>
+              </a>
+            </li>
+
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #Thesis
+      -->
+
+      <article class="research" data-page="research">
+
+        <header>
+          <h3 class="h2 article-title">Research Papers</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/image copy.png" alt="Breast Cancer Detection using Deep Learning"
+                    loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Artificial Intelligence | Deep Learning</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-08-16">Aug 16, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Breast Cancer Detection Using InceptionV3 and CNN Techniques</h3>
+
+                  <p class="blog-text">
+                    This research presents a deep learning-based classification of breast cancer tumors into benign and
+                    malignant types using InceptionV3 and CNN models.
+                    Extensive testing was performed on DDSM, WCBD, and BreakHis datasets, achieving up to 98.8%
+                    accuracy. Transfer learning and PCA-enhanced logistic
+                    regression were also explored for model optimization.
+                  </p>
+
+                  <p class="blog-text">
+                    Authors: Muhammad Nadeem</sup><br>
+                    Affiliation: Department of Computer Science, Bahauddin Zakariya University, Multan, Pakistan.<br>
+                    Published: August 16, 2023.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1369.0588120782475!2d73.0942822!3d33.5224795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfed9c341e426b%3A0x8ae15ee0e9bd09fc!2sMobify!5e0!3m2!1sen!2s!4v1713777957551!5m2!1sen!2s"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/xnndqqzk" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
